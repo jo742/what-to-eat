@@ -363,8 +363,37 @@
         }
 
         @media (max-width: 600px) {
+            body {
+                padding: 0;
+            }
+
+            .container {
+                padding: 30px 20px;
+                max-width: 100%;
+            }
+
             header h1 {
-                font-size: 1.8rem;
+                font-size: 2rem;
+            }
+
+            header p {
+                font-size: 0.95rem;
+            }
+
+            .search-box {
+                max-width: 100%;
+                padding: 25px 20px;
+                border-radius: 16px;
+            }
+
+            .search-box input {
+                padding: 15px 18px;
+                font-size: 1rem;
+            }
+
+            .search-box button {
+                padding: 15px;
+                font-size: 1rem;
             }
 
             .random-btn {
